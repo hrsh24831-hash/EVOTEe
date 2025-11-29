@@ -1,4 +1,4 @@
-const API_BASE="https://recurrent-millennially-eura.ngrok-free.dev";
+const API_BASE="https://delhi-registrar-wallet-hydrogen.trycloudflare.com";
 
 // -----------------
 // LOGIN
@@ -191,3 +191,4 @@ function addVoter() {
             document.getElementById("v_const").value = "";
         });
 }
+
