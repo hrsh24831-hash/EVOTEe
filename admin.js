@@ -1,4 +1,4 @@
-const API_BASE="https://delhi-registrar-wallet-hydrogen.trycloudflare.com";
+const API_BASE = "https://api.evote.com";
 
 // -----------------
 // LOGIN
@@ -191,4 +191,5 @@ function addVoter() {
             document.getElementById("v_const").value = "";
         });
 }
+
 
