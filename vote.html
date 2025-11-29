@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Vote - Vote</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* This ensures that if your JS creates plain divs inside the list, 
+           they will still look good with a glass effect */
+        #candidateList > div {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+        #candidateList > div:hover {
+            transform: translateY(-5px);
+            border-color: rgba(59, 130, 246, 0.5);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 min-h-screen flex flex-col items-center justify-center p-6 text-white">
+
+    <div class="w-full max-w-5xl">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300 drop-shadow-lg">
+                Select Your Candidate
+            </h2>
+            <p class="text-gray-400 text-lg">Cast your vote securely below</p>
+        </div>
+
+        <div id="candidateList" 
+             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+            </div>
+
+        <div class="mt-16 text-center">
+            <button onclick="castVote()" 
+                    class="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-200 bg-blue-600 font-lg rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 hover:bg-blue-700 hover:scale-105 shadow-lg shadow-blue-500/30">
+                <span>Confirm & Cast Vote</span>
+                <svg class="w-5 h-5 ml-2 -mr-1 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

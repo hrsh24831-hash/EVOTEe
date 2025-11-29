@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>e-Vote - Verify</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+<div class="bg-white p-10 rounded-2xl shadow-xl w-96 text-center">
+    <h2 class="text-3xl font-bold mb-6 text-blue-600">Verify Voter</h2>
+
+    <input type="number" id="aadhaar"
+           class="w-full p-3 border rounded-lg mb-4 focus:ring-2 focus:ring-blue-300"
+           placeholder="Enter Aadhaar Number">
+
+    <button onclick="verifyVoter()"
+            class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700">
+        Verify
+    </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
