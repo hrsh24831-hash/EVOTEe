@@ -1,4 +1,4 @@
-const API_BASE = "https://api.evote.com";
+const API_BASE = "https://mysql-pins-were-ours.trycloudflare.com";
 
 // -----------------
 // LOGIN
@@ -191,5 +191,6 @@ function addVoter() {
             document.getElementById("v_const").value = "";
         });
 }
+
 
 
