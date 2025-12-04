@@ -1,3 +1,6 @@
+const cors = require("cors");
+app.use(cors());
+
 const API_BASE = "https://alliance-reductions-welding-spiritual.trycloudflare.com";
 
 // -----------------
@@ -191,6 +194,7 @@ function addVoter() {
             document.getElementById("v_const").value = "";
         });
 }
+
 
 
 
