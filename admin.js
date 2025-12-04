@@ -1,4 +1,4 @@
-const API_BASE = "https://sic-yearly-funky-prescribed.trycloudflare.com";
+const API_BASE = "https://olympic-lucy-simple-lighting.trycloudflare.com";
 
 // -----------------
 // LOGIN
@@ -191,6 +191,7 @@ function addVoter() {
             document.getElementById("v_const").value = "";
         });
 }
+
 
 
 
