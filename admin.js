@@ -1,4 +1,4 @@
-const API_BASE = "https://associated-ingredients-playstation-rated.trycloudflare.com";
+const API_BASE = "https://ready-technologies-strengthening-herb.trycloudflare.com";
 
 // -----------------
 // LOGIN
@@ -191,6 +191,7 @@ function addVoter() {
             document.getElementById("v_const").value = "";
         });
 }
+
 
 
 
