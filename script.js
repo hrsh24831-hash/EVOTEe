@@ -3,7 +3,7 @@
 // ===========================
 // ⚠️ IMPORTANT: Replace 'something' with your actual Ngrok ID
 // Note: No space at the start of the string!
-const API_BASE = "https://portraits-situations-lodging-witch.trycloudflare.com";
+const API_BASE = "https://candidates-cache-frankfurt-pest.trycloudflare.com";
 
 // SHARED HEADERS (The "VIP Pass" for Ngrok)
 // We use this in every request so Ngrok doesn't show the warning page.
@@ -245,6 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
 
 
 
