@@ -1,4 +1,4 @@
-const API_BASE = "https://portraits-situations-lodging-witch.trycloudflare.com";
+const API_BASE = "https://candidates-cache-frankfurt-pest.trycloudflare.com";
 
 // -----------------
 // LOGIN
@@ -191,6 +191,7 @@ function addVoter() {
             document.getElementById("v_const").value = "";
         });
 }
+
 
 
 
