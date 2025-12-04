@@ -3,6 +3,9 @@
 // ===========================
 // ⚠️ IMPORTANT: Replace 'something' with your actual Ngrok ID
 // Note: No space at the start of the string!
+const cors = require("cors");
+app.use(cors());
+
 const API_BASE = "https://alliance-reductions-welding-spiritual.trycloudflare.com";
 
 // SHARED HEADERS (The "VIP Pass" for Ngrok)
@@ -245,6 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
 
 
 
