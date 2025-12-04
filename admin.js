@@ -1,4 +1,4 @@
-const API_BASE = "https://calm-appreciate-bestsellers-databases.trycloudflare.com";
+const API_BASE = "https://sic-yearly-funky-prescribed.trycloudflare.com";
 
 // -----------------
 // LOGIN
@@ -191,6 +191,7 @@ function addVoter() {
             document.getElementById("v_const").value = "";
         });
 }
+
 
 
 
